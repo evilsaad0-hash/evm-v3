@@ -1,4 +1,4 @@
-# Evil Vps V1 Bot — LXC Edition
+# EVM Bot V3 — LXC Edition
 
 Made by **EVILSAAD**
 Repo: https://github.com/evilsaad0-hash/vps-deploy-bot-v1.git
@@ -21,6 +21,8 @@ git clone https://github.com/evilsaad0-hash/evm-v3.git
 cd evm-v3
 chmod +x install.sh
 sudo ./install.sh
+cp env .env
+nano .env
 ```
 
 Then follow the prompts:
