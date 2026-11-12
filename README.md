@@ -21,8 +21,6 @@ git clone https://github.com/evilsaad0-hash/evm-v3.git
 cd evm-v3
 chmod +x install.sh
 sudo ./install.sh
-cp env .env
-nano .env
 ```
 
 Then follow the prompts:
