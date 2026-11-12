@@ -152,24 +152,6 @@ configure_env() {
 create_service() {
     step "Creating systemd service..."
     cat > /etc/systemd/system/bot.service <<EOF
-[Unit]
-Description=IPMI SUPERMICRO BOT
-After=network.target
-
-[Service]
-User=root
-WorkingDirectory=/root
-ExecStart=/usr/bin/python3 /root/bot.py
-Restart=always
-RestartSec=5
-Environment=PYTHONUNBUFFERED=1
-Environment=DISCORD_TOKEN=${DISCORD_TOKEN}
-Environment=MAIN_ADMIN_ID=${MAIN_ADMIN_ID}
-Environment=BOT_NAME=Svm-v9
-
-[Install]
-WantedBy=multi-user.target
-EOF
 
     step "Reloading systemd daemon..."
     systemctl daemon-reload
