@@ -111,9 +111,9 @@ _ai_agent_state: Dict[str, Any] = {
 _ai_agent_last_repair: Dict[str, float] = {}
 _ai_agent_lock = asyncio.Lock()
 BOT_DEVELOPER = os.getenv('BOT_DEVELOPER', 'rehan.404')
-BOT_THUMBNAIL_URL = os.getenv('BOT_THUMBNAIL_URL', 'https://cdn.discordapp.com/attachments/1553456349566996520/1557448669694009374/799adf9b-0823-4739-af55-66049200d43f.png?backend=b2&ex=6ac7d69a&is=6ac6851a&hm=fd87bffcac20ca1c1445c8e4b9c6ae27f2cf629d2e4681d84884a7a38a5a8ef4&')
+BOT_THUMBNAIL_URL = os.getenv('BOT_THUMBNAIL_URL', 'https://cdn.discordapp.com/attachments/1421391605012627497/1571058682882564136/file_00000000d0208211a03e73df9a707fcb.png?ex=6af959ea&is=6af8086a&hm=15faaaff400fedd00e66c1291a7b973a69ab9505fd02fcff763a485c798967ee&')
 BOT_ICON_URL = os.getenv('BOT_ICON_URL', BOT_THUMBNAIL_URL)
-BOT_BANNER_URL = os.getenv('BOT_BANNER_URL', 'https://cdn.discordapp.com/attachments/1553456349566996520/1557448713411100802/file_000000003be882118584bb3106cc0d6d.png?backend=b2&ex=6ac7d6a5&is=6ac68525&hm=ede6ad06007eb039279df2fcb9f1dfb6a534497873254b3063c3b880c1de2804&')
+BOT_BANNER_URL = os.getenv('BOT_BANNER_URL', 'https://cdn.discordapp.com/attachments/1421391605012627497/1571058682882564136/file_00000000d0208211a03e73df9a707fcb.png?ex=6af959ea&is=6af8086a&hm=15faaaff400fedd00e66c1291a7b973a69ab9505fd02fcff763a485c798967ee&')
 
 # VPS Expiration Settings
 DEFAULT_VPS_EXPIRATION_DAYS = int(os.getenv('DEFAULT_VPS_EXPIRATION_DAYS', '30'))
